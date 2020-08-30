@@ -105,8 +105,7 @@ img{
 .intro-text{
     text-align: center;
     padding-top: 15rem;
-    color: rgb(19, 223, 46);
-    text-shadow: rgb(7, 7, 7) 3px 3px 3px;
+    color: black;
 }
 
 .articles{
