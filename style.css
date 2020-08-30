@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rosybrown;
+}
+
+.head-container{
+    background: lightcoral;
+    position: sticky;
+    top: 0%;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.logo-image {
+    height: 3rem;
+    width: 3rem;
+}
+
+.logo-container, nav ul{
+    display: flex;
+}
+
+
+
+.logo-container{
+    
+    flex: 1;
+    align-items: center;
+
+}
+
+.logo{
+    margin: 5px;
+    font-size: 1.5rem;
+}
+
+.logo a{
+    color: Black;
+    text-decoration: none;
+}
+
+.logo:hover, .logo-image:hover {
+    cursor: pointer;
+}
+
+h1{
+    
+    font-size: 4rem;
+}
+
+h4{
+    
+    font-weight: 500;
+}
+
+nav ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+
+nav {
+    
+    flex: 3;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(54, 62, 70);
+    font-size: 2rem;
+}
+
+img{
+    height: 15rem;
+    width: 25rem;
+    border: 3px solid mediumseagreen;
+    margin: 5rem;
+}
+
+.cover-image{
+    background-image: url(/img/pexels-daria-obymaha-1684149.jpg);
+    min-height: 30rem;
+    width: auto;
+    background-size: cover;
+    
+}
+
+.intro-text{
+    text-align: center;
+    padding-top: 15rem;
+    color: rgb(19, 223, 46);
+    text-shadow: rgb(7, 7, 7) 3px 3px 3px;
+}
+
+.articles{
+    max-width: 50%;
+    margin: auto;
+}
+article{
+    margin: 1rem 0 0 0;
+    text-align: center;
+    padding: 3rem;
+}
+
+article h2{
+    
+    font-size: 3rem;
+}
+
+article p{
+    font-size: 1.5rem;
+}
+
+#article-1{
+    background: lightgoldenrodyellow;
+}
+#article-2{
+    background: lightpink;
+}
+#article-3{
+    background: lightsalmon;
+}
+#article-4{
+    background: lightskyblue;
+}
+#article-5{
+    background: lightpink;
+}
+
+
+footer{
+    background: mediumseagreen;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer-container{
+    flex: 1;
+}
+
+.footer-link{
+    display: flex;
+    height: 3vh;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    list-style: none;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.poetry{
+    max-width: 40%;
+    margin: auto;
+}
+
+#poem-1{
+    background-color: hotpink;
+}
+#poem-3{
+    background-color: indigo;
+}
+#poem-2{
+    background-color: lavender;
+}
+#poem-4{
+    background-color: lightblue;
+}
